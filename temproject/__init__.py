@@ -8,7 +8,7 @@ from tornado.web import Application as _Application
 
 
 def get_app():
-    """Return a new temproyect application."""
+    """Return a new temproject application."""
     return _Application(debug=True)
 
 
